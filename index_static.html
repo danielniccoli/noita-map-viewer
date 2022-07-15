@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hello World!</title>
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+</head>
+
+<body>
+
+  <div id="openseadragon1" style="width: 800px; height: 600px;"></div>
+  <script src="./node_modules/openseadragon/build/openseadragon/openseadragon.min.js"></script>
+  <script type="text/javascript">
+    var viewer = OpenSeadragon({
+      id: "openseadragon1"
+      
+      //tileSources: "/iiif3/info.json",
+    });
+  </script>
+
+</body>
+
+</html>
